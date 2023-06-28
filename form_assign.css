@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.first_container{
+    background: linear-gradient( to right, #3634b1,#02c3fe);
+    width: 80vw;
+    height: 80vh;
+    margin: 60px auto;
+    /* border: 1px solid; */
+    display: grid;
+    grid-template-columns: 25% auto;
+}
+.container_left{
+    text-align: center;    
+    color: #f8f9fbad;
+
+}
+i{
+    color: #f8f9fb;
+    margin: 30px 0;
+    margin-top: 150px;
+}
+.fa-rotate-90{
+    transform: rotate(315deg);
+
+}
+.fa-2xl{
+    font-size: 40px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f8f9fb;
+    margin-bottom: 10px;
+
+}
+.container_right{
+    background-color: #f8f9fb;
+    margin-top: 30px;
+    width: 96%;
+    height: 87%;
+    border-start-start-radius: 90px 300px;
+    border-end-start-radius: 90px 300px ;
+}
+.hierer_div{
+    margin:15px 72%;
+    width: 200px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 20px;
+    background-color: #366be7;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.but{
+    border-radius: 20px;
+    height: 28px;
+    border: unset;
+    width: 110px;
+}
+.ton1{
+    margin-top: 90px;
+    color:  #1d1b67;
+    background-color: #f8f9fb;
+
+}
+.ton2{
+    color: #f8f9fb ;
+    background-color: #366be7;
+    margin-left:140px;
+    margin-top: 30px;
+}
+#Employee_button{
+    border: unset;
+    margin: 2px;
+    border-radius: 20px;
+    border-radius: 20px;
+    height: 25px;
+    color:  #366be7;
+    background-color: #f8f9fb;
+
+}
+#hier{
+    width: fit-content;
+    height: fit-content;
+    padding-top: 5px;
+    padding-left: 35px;
+    color: #f8f9fb;
+
+}
+h2{
+    color: rgb(104, 104, 104);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    width: fit-content;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:20px ;
+}
+.input_box>input, .right_form>input {
+    width: 250px;
+    height: 30px;
+    border:1px lightgray solid;
+    border-radius: 3px;
+
+}
+#security{
+    width: 253px;
+    height: 33px;
+    border:1px lightgray solid;
+    border-radius: 3px;
+
+}
